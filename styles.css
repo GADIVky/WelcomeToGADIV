@@ -132,3 +132,10 @@ header {
       padding-bottom: 30px;
 }
 
+.container-contactus {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/mousepad.jpg') no-repeat center center/cover;
+}
