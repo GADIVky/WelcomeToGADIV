@@ -1,27 +1,22 @@
-* {
+*  {
     margin: 0;
     padding: 0;
-    background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
-}
-
-body {
-    background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
-}
-
-.bkgrd-form {
-    background-image: src="images/mousepad.jpg";
+    box-sizing: border-box;
 }
 .radio {
-    display: none;
+      display: none;
 }
-
+  
+body {
+      background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
+}
+  
 .main-content {
-  font-size: 25px;
-  color: rgb(255, 216, 40);
-  position: relative;
-  top: 500px;
+    font-size: 25px;
+    color: rgb(255, 216, 40);
+    position: relative;
+    top: 500px;
 }
-
 .container {
     position: relative;
     max-width: 800px;
@@ -131,8 +126,8 @@ body {
   
 header {
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: gold;
-    padding-bottom: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      color: gold;
+      padding-bottom: 30px;
 }
