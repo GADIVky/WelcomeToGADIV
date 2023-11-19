@@ -13,9 +13,11 @@ body {
   
 .main-content {
     font-size: 25px;
-    color: rgb(255, 216, 40);
+    color: rgb(29, 8, 29);
     position: relative;
     top: 500px;
+    margin: 15px auto;
+    
 }
 .container {
     position: relative;
