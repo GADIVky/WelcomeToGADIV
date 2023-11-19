@@ -6,11 +6,6 @@
 .radio {
       display: none;
 }
-.bkgrd-form {
-    background-image: src="images/mousepad" !important;
-    background-position: center;
-    background-size: cover;
-}
   
 body {
       background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
@@ -136,3 +131,4 @@ header {
       color: gold;
       padding-bottom: 30px;
 }
+
