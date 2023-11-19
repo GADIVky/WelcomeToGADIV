@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
+}
+
 body {
     background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
 }
 
+.bkgrd-form {
+    background-image: src="images/mousepad.jpg";
+}
 .radio {
     display: none;
 }
@@ -17,9 +26,9 @@ body {
     position: relative;
     max-width: 800px;
     margin: 5% auto;
-  }
+}
   
-  .slider {
+.slider {
     width: 100%;
     position: absolute;
     height: 0;
@@ -28,25 +37,25 @@ body {
     overflow: hidden;
     border: solid 1px #2e2e;
     box-shadow: 0 0 40px rgba(102,3,124,1);
-  }
+}
   
-  .slide {
+.slide {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0; left: 0;
     opacity: 0; 
-  }
+}
   
-  .slide img {
+.slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transform: scale(1.1);
     transition: 1.3s;
-  }
+}
   
-  .caption {
+.caption {
     position: absolute;
     width: 100%;
     left: 15%;
@@ -58,9 +67,9 @@ body {
     letter-spacing: 2px;
     line-height: 50px;
     transition: 0.9s;
-  }
+}
   
-  .caption span {
+.caption span {
     display: block;
     text-transform: initial;
     font-size: 30px;
@@ -68,18 +77,18 @@ body {
     letter-spacing: 12px;
     color: #fff;
     line-height: 15px;
-  }
+}
   
-  .dots {
+.dots {
     width: 100%;
     position: absolute;
     bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .dots label {
+.dots label {
     width: 15px;
     height: 15px;
     background-color: rgb(238, 189, 53);
@@ -88,42 +97,42 @@ body {
     opacity: 0.7;
     cursor: pointer;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .dots label:hover {
+.dots label:hover {
     opacity: 0.9;
-  }
+}
   
-  #radio-1:checked ~ #slide-1,
-  #radio-2:checked ~ #slide-2,
-  #radio-3:checked ~ #slide-3,
-  #radio-4:checked ~ #slide-4,
-  #radio-5:checked ~ #slide-5 {
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3,
+#radio-4:checked ~ #slide-4,
+#radio-5:checked ~ #slide-5 {
     opacity: 1;
-  }
+}
   
-  #radio-1:checked ~ #slide-1 img,
-  #radio-2:checked ~ #slide-2 img,
-  #radio-3:checked ~ #slide-3 img,
-  #radio-4:checked ~ #slide-4 img,
-  #radio-5:checked ~ #slide-5 img {
+#radio-1:checked ~ #slide-1 img,
+#radio-2:checked ~ #slide-2 img,
+#radio-3:checked ~ #slide-3 img,
+#radio-4:checked ~ #slide-4 img,
+#radio-5:checked ~ #slide-5 img {
     transform: scale(1);
-  }
+}
   
-  #radio-1:checked ~ #slide-1 .caption,
-  #radio-2:checked ~ #slide-2 .caption,
-  #radio-3:checked ~ #slide-3 .caption,
-  #radio-4:checked ~ #slide-4 .caption,
-  #radio-5:checked ~ #slide-5 .caption {
+#radio-1:checked ~ #slide-1 .caption,
+#radio-2:checked ~ #slide-2 .caption,
+#radio-3:checked ~ #slide-3 .caption,
+#radio-4:checked ~ #slide-4 .caption,
+#radio-5:checked ~ #slide-5 .caption {
     opacity: 1;
     top: 7%;
     font-size: 60px;
-  }
+}
   
-  header {
+header {
     text-align: center;
-      font-size: 40px;
-      font-weight: bold;
-      color: gold;
-      padding-bottom: 30px;
-  }
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    padding-bottom: 30px;
+}
