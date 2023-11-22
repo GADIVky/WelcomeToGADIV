@@ -6,21 +6,33 @@
     <title>G.A.D.I.V.</title>
     <link rel="stylesheet" href="formstyles.css">
 </head>
-<div>
+<body>
     <header>
         <div class="navbar">
-          <div ></div>  
-            
-                <a href="GADIV.html">Home</a>
-                <a href="GADIV-Services.html">Our Services</a>
-                <a href="GADIV-ThisIsUs.html">This Is GADIV</a>
-                <a href="GADIV-CustomerSupport.html">Customer Support</a>
-                <a href="GADIV-ContactUs.html">Contact Us</a>
-            
+           
+          <ul class="links">
+            <li><a href="GADIV.html">Home</a></li>
+            <li><a href="GADIV-Services.html">Services</a></li>
+            <li><a href="GADIV-ThisIsUs.html">About Us</a></li>
+            <li><a href="GADIV-CustomerSupprt.html">Support</a></li>
+            <li><a href="GADIV-ContactUs.html">Contact Us</a></li>
+          </ul> 
+          
+          <div class="toggle_btn"></div>
+            <i class="fa-solid fa-bars"></i>
 
+          <div class="dropdown_menu">
+            <li><a href="GADIV.html">Home</a></li>
+            <li><a href="GADIV-Services.html">Services</a></li>
+            <li><a href="GADIV-ThisIsUs.html">About Us</a></li>
+            <li><a href="GADIV-CustomerSupprt.html">Support</a></li>
+            <li><a href="GADIV-ContactUs.html" class="action_btn">Contact Us</a></li>
+          </div>
         </div>
+
     </header>
-    <div class="container">
+
+    
         
          
 
@@ -61,13 +73,22 @@
         
         </div>
 
+    
+
+    <script>
+        const toggle_btn = document.querySelector('.toggle_btn')
+        const toggle_btnIcon = document.querySelector('.toggle_btn i')
+        const dropdown_menu = document.querySelector('.dropdown_menu')
         
+        toggle_btn.onclick = function () {
+            dropdown_menu.classList.toggle('open')
+            const isOpen = dropdown_menu.classList.cont('open')
 
-            
-
-    </div>
-
-</div>
+            toggle_btnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 
 </body>
 </html>
